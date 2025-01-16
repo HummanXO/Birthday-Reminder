@@ -1,7 +1,9 @@
-//
-//  Add.swift
-//  Birthday Reminder
-//
-//  Created by Alexandr on 1/16/25.
-//
+import UIKit
 
+class AddBirthdayViewController: UIViewController {
+    override func viewDidLoad() {
+    
+        super.viewDidLoad()
+        view.backgroundColor = .red
+        }
+}

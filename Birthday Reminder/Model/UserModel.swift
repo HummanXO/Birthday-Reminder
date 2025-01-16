@@ -1,8 +1,8 @@
 import Foundation
 
-struct Model {
-    var email: String
-    var password: String
+struct UserModel {
+    var email: String = ""
+    var password: String = ""
     
     func isValidEmail() -> Bool {
         let emailFormat = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
